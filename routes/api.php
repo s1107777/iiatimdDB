@@ -22,6 +22,7 @@ Route::group([
     Route::post('/login', [App\Http\Controllers\AuthController::class, 'login']);
     Route::post('/register', [App\Http\Controllers\AuthController::class, 'register']);
     Route::post('/logout', [App\Http\Controllers\AuthController::class, 'logout']);
-    Route::post('/refresh', [App\Http\Controllers\AuthController::class, 'refresh']);
-    Route::get('/user-profile', [App\Http\Controllers\AuthController::class, 'userProfile']);    
+    // Route::post('/refresh', [App\Http\Controllers\AuthController::class, 'refresh']);
+    Route::get('/user-profile', [App\Http\Controllers\AuthController::class, 'userProfile']);  
+    Route::post('/change-profile', [App\Http\Controllers\AuthController::class, 'changeProfile']);  
 });
