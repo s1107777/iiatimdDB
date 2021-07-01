@@ -57,34 +57,34 @@ class SerieSeeder extends Seeder
             'seasons' => '6 seasons',
             'serieImageUrl' => '/img/vikings.jpg',
         ]);
-        // DB::table('series')->insert([
-        //     'serieName' => '',
-        //     'genre' => 'Adventure',
-        //     'description' => "",
-        //     'seasons' => ' seasons',
-        //     'serieImageUrl' => '/img/.jpg',
-        // ]);
-        // DB::table('series')->insert([
-        //     'serieName' => '',
-        //     'genre' => 'Adventure',
-        //     'description' => "",
-        //     'seasons' => ' seasons',
-        //     'serieImageUrl' => '/img/.jpg',
-        // ]);
-        // DB::table('series')->insert([
-        //     'serieName' => '',
-        //     'genre' => 'Adventure',
-        //     'description' => "",
-        //     'seasons' => ' seasons',
-        //     'serieImageUrl' => '/img/.jpg',
-        // ]);
-        // DB::table('series')->insert([
-        //     'serieName' => '',
-        //     'genre' => 'Adventure',
-        //     'description' => "",
-        //     'seasons' => ' seasons',
-        //     'serieImageUrl' => '/img/.jpg',
-        // ]);
+        DB::table('series')->insert([
+            'serieName' => 'The Flash',
+            'genre' => 'Adventure',
+            'description' => "Barry Allen is a Central City police forensic scientist with a reasonably happy life, despite the childhood trauma of a mysterious red and yellow lightning killing his mother and framing his father.",
+            'seasons' => '8 seasons',
+            'serieImageUrl' => '/img/flash.jpg',
+        ]);
+        DB::table('series')->insert([
+            'serieName' => 'Shadow and Bone',
+            'genre' => 'Adventure',
+            'description' => "In a world where dark forces have taken over, a young mapmaker, Alina Starkov, accidentally discovers that she has the power to change the fate of the war. She is the only one who has the power to summon light.",
+            'seasons' => '2 seasons',
+            'serieImageUrl' => '/img/shadowandbone.jpg',
+        ]);
+        DB::table('series')->insert([
+            'serieName' => 'Lost',
+            'genre' => 'Adventure',
+            'description' => "The past, present, and future lives of surviving Oceanic Flight 815 passengers are dramatically intertwined as a fight for survival ensues in a quest for answers after crashlanding on a mysterious island.",
+            'seasons' => '6 seasons',
+            'serieImageUrl' => '/img/lost.jpg',
+        ]);
+        DB::table('series')->insert([
+            'serieName' => 'Sweet Tooth',
+            'genre' => 'Adventure',
+            'description' => "A boy who is half human and half deer survives in a post-apocalyptic world with other hybrids.",
+            'seasons' => '1 seasons',
+            'serieImageUrl' => '/img/sweettooth.jpg',
+        ]);
 
         DB::table('series')->insert([
             'serieName' => 'Hawaii Five-0',
@@ -100,20 +100,20 @@ class SerieSeeder extends Seeder
             'seasons' => '4 seasons',
             'serieImageUrl' => '/img/swat.jpg',
         ]);
-        // DB::table('series')->insert([
-        //     'serieName' => '',
-        //     'genre' => 'Action',
-        //     'description' => "",
-        //     'seasons' => ' seasons',
-        //     'serieImageUrl' => '/img/.jpg',
-        // ]);
-        // DB::table('series')->insert([
-        //     'serieName' => '',
-        //     'genre' => 'Action',
-        //     'description' => "",
-        //     'seasons' => ' seasons',
-        //     'serieImageUrl' => '/img/.jpg',
-        // ]);
+        DB::table('series')->insert([
+            'serieName' => 'Arrow',
+            'genre' => 'Action',
+            'description' => "Oliver Queen and his father are lost at sea when their luxury yacht sinks, apparently in a storm. His father dies, but Oliver survives for five years on an uncharted island and eventually returns home.",
+            'seasons' => '8 seasons',
+            'serieImageUrl' => '/img/arrow.jpg',
+        ]);
+        DB::table('series')->insert([
+            'serieName' => 'The Last Kingdom',
+            'genre' => 'Action',
+            'description' => "The year is 872, and many of the separate kingdoms of what we now know as England have fallen to the invading Danes, leaving the great kingdom of Wessex standing alone and defiant under the command of King Alfred.",
+            'seasons' => '5 seasons',
+            'serieImageUrl' => '/img/lastkingdom.jpg',
+        ]);
         // DB::table('series')->insert([
         //     'serieName' => '',
         //     'genre' => 'Action',
