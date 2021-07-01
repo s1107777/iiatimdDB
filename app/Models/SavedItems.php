@@ -9,8 +9,9 @@ class SavedItems extends Model
 {
 
     use HasFactory;
-    
+
     protected $table='saveditems';
+    protected $timestamps = false;
 
     public function getAllSavedItems(){
         SavedItems::all();
