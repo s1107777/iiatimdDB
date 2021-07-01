@@ -7,15 +7,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class SavedItems extends Model
 {
+
     use HasFactory;
-
+    
     protected $table='saveditems';
-
-    protected $fillable =
-    [
-        'name',
-        'genre',
-    ];
 
     public function getAllSavedItems(){
         SavedItems::all();
