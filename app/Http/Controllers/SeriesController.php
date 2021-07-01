@@ -8,7 +8,7 @@ use App\Models\Series;
 
 class SeriesController extends Controller
 {
-    public function movies(){
+    public function series(){
         return Series::all(); 
     }
 }
