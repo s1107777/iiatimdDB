@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
+Route::post('/saveditems', [App\Http\Controllers\SavedItemsController::class, 'store']);
 
 Route::group([
     'middleware' => 'api',
@@ -23,7 +24,8 @@ Route::group([
     Route::post('/register', [App\Http\Controllers\AuthController::class, 'register']);
     Route::post('/logout', [App\Http\Controllers\AuthController::class, 'logout']);
     Route::post('/refresh', [App\Http\Controllers\AuthController::class, 'refresh']);
-    Route::get('/user-profile', [App\Http\Controllers\AuthController::class, 'userProfile']);  
+    Route::get('/user-profile', [App\Http\Controllers\AuthController::class, 'userProfile']);   
+    Route::get('/saved', [App\Http\Controllers\SavedItemsController::class, 'allSavedItems']);
     Route::get('/movies', [App\Http\Controllers\MoviesController::class, 'movies']); 
     Route::get('/series', [App\Http\Controllers\SeriesController::class, 'series']);   
 });
