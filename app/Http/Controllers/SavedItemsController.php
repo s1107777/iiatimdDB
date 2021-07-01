@@ -13,12 +13,16 @@ class SavedItemsController extends Controller
     }
 
 
-    public function saveitem(Request $request){
-        $saveditems = new SavedItems();
+    public function store(Request $request, \App\Models\SavedItems $saveditems){
         $saveditems->name = $request->input('name');
         $saveditems->genre = $request->input('genre');
 
-        $saveditems->save();
+        try{
+            $saveditems->save();
+        }
+        catch(Exception $e){
+            
+        }
 
     }
 }
