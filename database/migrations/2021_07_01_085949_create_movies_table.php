@@ -17,7 +17,8 @@ class CreateMoviesTable extends Migration
             $table->id();
             $table->string('movieName');
             $table->string('genre');
-            $table->string('description');
+            $table->string('movieImageUrl');
+            $table->string('description', 250);
         });
     }
 
@@ -31,4 +32,3 @@ class CreateMoviesTable extends Migration
         Schema::dropIfExists('movies');
     }
 }
-
