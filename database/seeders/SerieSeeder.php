@@ -51,12 +51,12 @@ class SerieSeeder extends Seeder
         ]);
 
         DB::table('series')->insert([
-            'serieName' => 'Vikings',
+            'serieName' => 'Legends of Tomorrow',
             'genre' => 'Adventure',
-            'description' => "The adventures of a Ragnar Lothbrok: the greatest hero of his age. The series tells the saga of Ragnar's band of Viking brothers and his family as he rises to become King of the Viking tribes.",
-            'seasons' => '6 seasons',
-            'serieImageUrl' => '/img/vikings.jpg',
-        ]);
+            'description' => "When heroes alone are not enough - the world needs legends. Having seen the future, one he will desperately try to prevent from happening, time-traveling rogue Rip Hunter is tasked with assembling a disparate group of...",
+            'seasons' => '7 seasons',
+            'serieImageUrl' => '/img/legendsoftomorrow.jpg',
+        ]); 
         DB::table('series')->insert([
             'serieName' => 'The Flash',
             'genre' => 'Adventure',
@@ -114,13 +114,13 @@ class SerieSeeder extends Seeder
             'seasons' => '5 seasons',
             'serieImageUrl' => '/img/lastkingdom.jpg',
         ]);
-        // DB::table('series')->insert([
-        //     'serieName' => '',
-        //     'genre' => 'Action',
-        //     'description' => "",
-        //     'seasons' => ' seasons',
-        //     'serieImageUrl' => '/img/.jpg',
-        // ]);
+        DB::table('series')->insert([
+            'serieName' => 'Vikings',
+            'genre' => 'Action',
+            'description' => "The adventures of a Ragnar Lothbrok: the greatest hero of his age. The series tells the saga of Ragnar's band of Viking brothers and his family as he rises to become King of the Viking tribes.",
+            'seasons' => '6 seasons',
+            'serieImageUrl' => '/img/vikings.jpg',
+        ]);
 
         DB::table('series')->insert([
             'serieName' => 'Prison Break',
@@ -143,20 +143,20 @@ class SerieSeeder extends Seeder
             'seasons' => '5 seasons',
             'serieImageUrl' => '/img/lacasadepapel.jpg',
         ]);
-        // DB::table('series')->insert([
-        //     'serieName' => '',
-        //     'genre' => 'Crime',
-        //     'description' => "",
-        //     'seasons' => ' seasons',
-        //     'serieImageUrl' => '/img/.jpg',
-        // ]);
-        // DB::table('series')->insert([
-        //     'serieName' => '',
-        //     'genre' => 'Crime',
-        //     'description' => "",
-        //     'seasons' => ' seasons',
-        //     'serieImageUrl' => '/img/.jpg',
-        // ]);
+        DB::table('series')->insert([
+            'serieName' => 'Lupin',
+            'genre' => 'Crime',
+            'description' => "Inspired by the adventures of Arsène Lupin, gentleman thief Assane Diop sets out to avenge his father for an injustice inflicted by a wealthy family.",
+            'seasons' => '2 seasons',
+            'serieImageUrl' => '/img/lupin.jpg',
+        ]);
+        DB::table('series')->insert([
+            'serieName' => 'Peaky Blinders',
+            'genre' => 'Crime',
+            'description' => "Thomas Shelby and his brothers return to Birmingham after serving in the British Army during WWI. Shelby and the Peaky Blinders, the gang he is leader of, control the city of Birmingham But as Shelby's ambitions extend beyond Birmingham.",
+            'seasons' => '5 seasons',
+            'serieImageUrl' => '/img/peakyblinders.jpg',
+        ]);
 
         DB::table('series')->insert([
             'serieName' => 'Game of Thrones',
@@ -201,34 +201,33 @@ class SerieSeeder extends Seeder
             'seasons' => '10 seasons',
             'serieImageUrl' => '/img/friends.jpg',
         ]);
-        // DB::table('series')->insert([
-        //     'serieName' => '',
-        //     'genre' => 'Comedy',
-        //     'description' => "",
-        //     'seasons' => ' seasons',
-        //     'serieImageUrl' => '/img/.jpg',
-        // ]);
-        // DB::table('series')->insert([
-        //     'serieName' => '',
-        //     'genre' => 'Comedy',
-        //     'description' => "",
-        //     'seasons' => ' seasons',
-        //     'serieImageUrl' => '/img/.jpg',
-        // ]);
-        // DB::table('series')->insert([
-        //     'serieName' => '',
-        //     'genre' => 'Comedy',
-        //     'description' => "",
-        //     'seasons' => ' seasons',
-        //     'serieImageUrl' => '/img/.jpg',
-        // ]);
-        // DB::table('series')->insert([
-        //     'serieName' => '',
-        //     'genre' => 'Comedy',
-        //     'description' => "",
-        //     'seasons' => ' seasons',
-        //     'serieImageUrl' => '/img/.jpg',
-        // ]);
-        
+        DB::table('series')->insert([
+            'serieName' => 'The Office',
+            'genre' => 'Comedy',
+            'description' => "A mediocre paper company in the hands of Scranton, PA branch manager Michael Scott. This mockumentary follows the everyday lives of the manager and the employees he 'manages.'",
+            'seasons' => '9 seasons',
+            'serieImageUrl' => '/img/office.jpg',
+        ]);
+        DB::table('series')->insert([
+            'serieName' => "Workin' Moms",
+            'genre' => 'Comedy',
+            'description' => "Workin' Moms follows the lives of four women as they juggle love, careers, and parenthood. They support, challenge, and try not to judge one another as life throws them curveballs.",
+            'seasons' => '5 seasons',
+            'serieImageUrl' => '/img/workinmoms.jpg.jpg',
+        ]);
+        DB::table('series')->insert([
+            'serieName' => 'Brooklyn Nine-Nine',
+            'genre' => 'Comedy',
+            'description' => "Captain Ray Holt takes over Brooklyn's 99th precinct, which includes Detective Jake Peralta, a talented but carefree detective who's used to doing whatever he wants. The other employees of the 99th precinct...",
+            'seasons' => '8 seasons',
+            'serieImageUrl' => '/img/brooklyn.jpg',
+        ]);
+        DB::table('series')->insert([
+            'serieName' => 'How I Met Your Mother',
+            'genre' => 'Comedy',
+            'description' => "Ted Mosby sits down with his kids, to tell them the story of how he met their mother. The story is told through memories of his friends Marshall, Lily, Robin, and Barney Stinson.",
+            'seasons' => '9 seasons',
+            'serieImageUrl' => '/img/mother.jpg',
+        ]); 
     }
 }
