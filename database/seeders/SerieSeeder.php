@@ -21,13 +21,13 @@ class SerieSeeder extends Seeder
             'description' => "Sons of Anarchy, aka SAMCRO, is a motorcycle club that operates both illegal and legal businesses in the small town of Charming. They combine gun-running and a garage, plus involvement in porn film.",
             'seasons' => '7 seasons',
         ]);
-        // DB::table('series')->insert([
-        //     'serieName' => 'Breaking Bad',
-        //     'genre' => 'Thriller',
-        //     'description' => "When chemistry teacher Walter White is diagnosed with Stage III cancer and given only two years to live, he decides he has nothing to lose. He lives with his teenage son, who has cerebral palsy, and his wife, in New Mexico.",
-        //     'seasons' => '5 seasons',
-        //     'serieImageUrl' => '/img/breakingbad.jpg',
-        // ]);
+        DB::table('series')->insert([
+            'serieName' => 'Breaking Bad',
+            'genre' => 'Thriller',
+            'description' => "When chemistry teacher Walter White is diagnosed with Stage III cancer and given only two years to live, he decides he has nothing to lose. He lives with his teenage son, who has cerebral palsy, and his wife, in New Mexico.",
+            'seasons' => '5 seasons',
+            'serieImageUrl' => '/img/breakingbad.jpg',
+        ]);
         // DB::table('series')->insert([
         //     'serieName' => "The Handmaid's Tale",
         //     'genre' => 'Thriller',
